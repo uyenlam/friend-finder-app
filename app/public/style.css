@@ -1,0 +1,41 @@
+#view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+};
+
+/* label color */
+   .input-field label {
+     color: #006400;
+   }
+
+   .input-field input{
+     color: #000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #006400;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #006400;
+     box-shadow: 0 1px 0 0 #006400;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #006400;
+     box-shadow: 0 1px 0 0 #006400;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #006400;
+     box-shadow: 0 1px 0 0 #006400;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #006400;
+   }
